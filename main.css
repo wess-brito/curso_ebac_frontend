@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: #213640;
+    color: #E8ECEE;
+    padding: 35px 0;
+}
+
+header .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 16px;
+}
+
+header li a {
+    color: #E8ECEE;
+    text-decoration: none;
+}
+
+.conteiner {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.articles article {
+    width: 30%;
+    background-color: #ffffff;
+    border-radius: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.articles article, h3, p, a {
+    margin: 20px;
+}
+
+.articles article, time {
+    margin: 20px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 22px;
+}
+
+section h2 {
+    font-size: 34px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 23px;
+}
+
+.articles article a {
+    background-color: #213640;
+    color: #E8ECEE;
+    padding: 12px 30px 12px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sports {
+    background-color: #E8ECEE;
+}
+
+#economy {
+    background-color: #ffffff;
+}
+
+#tecnology {
+    background-color: #E8ECEE;
+}
